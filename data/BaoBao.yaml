@@ -1,0 +1,19 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+train: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao/images/trainbao/
+val: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao/images/valbao/
+test: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao/images/testbao/
+# train: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao1/images/trainbao/
+# val: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao1/images/valbao/
+# test: D:/BaiduNetdiskDownload/yolodetect/yolov7/yolov7/data/baobao1/images/testbao/
+
+# number of classes
+nc: 2
+
+# class names
+names: ["SpongeBob", "PatrickStar"]
